@@ -25,13 +25,12 @@ Bu proje, Enterprise sitesinde çeşitli işlemleri otomatikleştirmek amacıyla
    - İndirilen dosyayı çalıştırarak kurulum sihirbazını takip edin.
    - Kurulum tamamlandığında, JDK'nin kurulu olduğu dizini not edin (örneğin, `C:\Program Files\Java\jdk-11.0.x`).
 
-![Ekran görüntüsü 2024-08-05 170740](https://github.com/user-attachments/assets/f6bb1d59-88b2-4076-8c4e-1d66a73b947e)
-![Ekran görüntüsü 2024-08-05 170834](https://github.com/user-attachments/assets/44d9bce2-3a68-45b0-9749-2970ef851a4a)
-![Ekran görüntüsü 2024-08-05 171257](https://github.com/user-attachments/assets/f909510d-3787-4830-acfb-9325e175cd13)
-![Ekran görüntüsü 2024-08-05 171328](https://github.com/user-attachments/assets/6a0f5c57-e3f2-48f2-98a1-848c85882190)
-![Ekran görüntüsü 2024-08-05 171417](https://github.com/user-attachments/assets/817ca1ab-db2d-4793-ac37-fef1d2f77c06)
-![Ekran görüntüsü 2024-08-05 171432](https://github.com/user-attachments/assets/c0bfebeb-dbfb-468a-9861-e78ab263189d)
-
+![Ekran görüntüsü 2024-08-05 170740](https://github.com/user-attachments/assets/1b29857a-79ec-4047-9f2a-f0dd58ec2476)
+![Ekran görüntüsü 2024-08-05 170834](https://github.com/user-attachments/assets/2bed2042-ef61-4291-a696-052b96d93470)
+![Ekran görüntüsü 2024-08-05 171257](https://github.com/user-attachments/assets/2611f068-7429-4557-be9c-de1ec4af6405)
+![Ekran görüntüsü 2024-08-05 171328](https://github.com/user-attachments/assets/dfd3dbfd-6523-4c70-b37d-95f221c1cd93)
+![Ekran görüntüsü 2024-08-05 171417](https://github.com/user-attachments/assets/4afce346-2731-4700-9400-f5054bb873ea)
+![Ekran görüntüsü 2024-08-05 171432](https://github.com/user-attachments/assets/3f515adc-9877-4a81-a8e1-279bc0ead039)
 
 2. **JAVA_HOME Ortam Değişkenini Ayarlama**:
    - Bilgisayarınızdaki Denetim Masası'na gidin ve "Sistem ve Güvenlik" seçeneğini seçin.
@@ -52,10 +51,10 @@ Bu proje, Enterprise sitesinde çeşitli işlemleri otomatikleştirmek amacıyla
    - `java -version` komutunu yazın ve Enter tuşuna basın. Java'nın kurulu olduğu sürüm bilgilerini görmelisiniz.
    - `javac -version` komutunu da kontrol ederek Java derleyicisinin kurulu olduğundan emin olun.
 
-![Ekran görüntüsü 2024-08-05 172238](https://github.com/user-attachments/assets/5203cbab-66c2-4112-8cdc-0665efb0b78f)
-![Ekran görüntüsü 2024-08-05 172414](https://github.com/user-attachments/assets/4f3afc9e-0319-485a-9a48-cbb5962d28ee)
-![Ekran görüntüsü 2024-08-05 172514](https://github.com/user-attachments/assets/afc74b08-9104-4ac4-844c-db1e927cbf86)
-![Ekran görüntüsü 2024-08-05 173222](https://github.com/user-attachments/assets/76ccce8c-af1a-424f-9fff-90ef7db1dd33)
+![Ekran görüntüsü 2024-08-05 172238](https://github.com/user-attachments/assets/71984890-2161-4cc1-9ad0-a275c21b47be)
+![Ekran görüntüsü 2024-08-05 172414](https://github.com/user-attachments/assets/e25d2d73-6bcd-407b-932d-4256eacddbc6)
+![Ekran görüntüsü 2024-08-05 172514](https://github.com/user-attachments/assets/dda3f6ed-d0c5-414a-82e3-7484ba232e39)
+![Ekran görüntüsü 2024-08-05 173222](https://github.com/user-attachments/assets/428cfcb4-7f04-4cab-9da8-ec971de3ee75)
 
 ### 2. IntelliJ IDEA Kurulumu
 
@@ -64,11 +63,11 @@ Bu proje, Enterprise sitesinde çeşitli işlemleri otomatikleştirmek amacıyla
    - İndirilen dosyayı çalıştırarak kurulum sihirbazını takip edin.
    - Kurulum tamamlandığında IntelliJ IDEA'nın kurulu olduğu dizini not edin.
 
-![Ekran görüntüsü 2024-08-05 155810](https://github.com/user-attachments/assets/5104db5b-9966-41f5-92f2-a804634437c9)
-![Ekran görüntüsü 2024-08-05 155918](https://github.com/user-attachments/assets/82d9aec7-c290-4e27-80c2-a2f9b207ec44)
-![Ekran görüntüsü 2024-08-05 160017](https://github.com/user-attachments/assets/1959298f-55a6-44b9-9ee3-657f575d01ad)
-![Ekran görüntüsü 2024-08-05 160033](https://github.com/user-attachments/assets/4c67477e-b498-4a6d-b626-d0e4614abcc7)
-![Ekran görüntüsü 2024-08-05 160052](https://github.com/user-attachments/assets/eeae0879-6fd6-4135-bca8-1c2cf527e2ad)
+![Ekran görüntüsü 2024-08-05 155810](https://github.com/user-attachments/assets/45865f9e-a52a-4917-bb3d-298a3ea71b8f)
+![Ekran görüntüsü 2024-08-05 155918](https://github.com/user-attachments/assets/d127a265-53b0-4137-8522-384b17a3d4c1)
+![Ekran görüntüsü 2024-08-05 160017](https://github.com/user-attachments/assets/ee62d43b-7420-41fb-b15c-862c3b02d180)
+![Ekran görüntüsü 2024-08-05 160033](https://github.com/user-attachments/assets/215e3771-f83e-4adf-bbb2-a3726bbadfd0)
+![Ekran görüntüsü 2024-08-05 160052](https://github.com/user-attachments/assets/33ff4c54-9b0d-48bd-8832-46b6f5beebfd)
 
 
 
@@ -112,21 +111,18 @@ Bu proje, Enterprise sitesinde çeşitli işlemleri otomatikleştirmek amacıyla
      private static final String USER = "kendi_kullanici_adiniz";
      private static final String PASSWORD = "kendi_sifreniz";
      ```
-     
-![Ekran görüntüsü 2024-08-05 160208](https://github.com/user-attachments/assets/758e4607-d435-470a-b759-8ce6fc45c503)
-![Ekran görüntüsü 2024-08-05 160300](https://github.com/user-attachments/assets/f68b0d78-915a-4f58-9ab3-92c514a682e1)
-![Ekran görüntüsü 2024-08-05 160410](https://github.com/user-attachments/assets/e6fc73a8-62e9-4ab6-84ec-ad313be3d87d)
-![Ekran görüntüsü 2024-08-05 160456](https://github.com/user-attachments/assets/4641544c-4fd6-4a1d-949d-d9fa845048c2)
-![Ekran görüntüsü 2024-08-05 160517](https://github.com/user-attachments/assets/c5dea59a-9626-457d-a96e-e8f3227e76ed)
-![Ekran görüntüsü 2024-08-05 160537](https://github.com/user-attachments/assets/1e62aca4-ec41-4b4b-b30a-e30730a05270)
-![Ekran görüntüsü 2024-08-05 160616](https://github.com/user-attachments/assets/82624509-64ab-41be-9eee-a886d4926195)
-![Ekran görüntüsü 2024-08-05 160635](https://github.com/user-attachments/assets/3ed720c9-1aba-43e7-a122-182df602496c)
-![Ekran görüntüsü 2024-08-05 160645](https://github.com/user-attachments/assets/91c0368c-8ccf-495f-baff-433709ac5139)
-![Ekran görüntüsü 2024-08-05 160659](https://github.com/user-attachments/assets/af5868de-39fd-452b-a0f5-20953ecd679e)
-![Ekran görüntüsü 2024-08-05 160750](https://github.com/user-attachments/assets/184de7a2-bb51-4717-bdfa-20dce1cc14ba)
-![Ekran görüntüsü 2024-08-05 160905](https://github.com/user-attachments/assets/ceb351f8-8629-42a9-a063-d57abf60f4ec)
-
-   
+![Ekran görüntüsü 2024-08-05 160208](https://github.com/user-attachments/assets/29ebc8ce-74e8-46d4-b9fe-c59d5527d0eb)
+![Ekran görüntüsü 2024-08-05 160300](https://github.com/user-attachments/assets/41415dc3-5dc5-4072-98fa-8e416e282a1c)
+![Ekran görüntüsü 2024-08-05 160410](https://github.com/user-attachments/assets/9eff8d49-d6e7-4567-b379-f36c902634a2)
+![Ekran görüntüsü 2024-08-05 160456](https://github.com/user-attachments/assets/7d21c102-4d26-4ce9-9f6d-1f9e0996d5ed)
+![Ekran görüntüsü 2024-08-05 160517](https://github.com/user-attachments/assets/f18eeada-0f75-47d2-bc32-d724c9f78e47)
+![Ekran görüntüsü 2024-08-05 160537](https://github.com/user-attachments/assets/2a1b3740-9b68-4091-b9d7-23198cdb42d0)
+![Ekran görüntüsü 2024-08-05 160616](https://github.com/user-attachments/assets/660528ca-f8ea-453e-bca5-a1b0f58bfd4b)
+![Ekran görüntüsü 2024-08-05 160635](https://github.com/user-attachments/assets/6f719e6c-bf21-45d2-a391-468426fe3a7d)
+![Ekran görüntüsü 2024-08-05 160645](https://github.com/user-attachments/assets/d4a4afca-9120-4d4b-9a4b-59fd3f4dbf56)
+![Ekran görüntüsü 2024-08-05 160659](https://github.com/user-attachments/assets/bb68b4d9-e08d-4183-bc41-3804e52620b0)
+![Ekran görüntüsü 2024-08-05 160750](https://github.com/user-attachments/assets/df8841ed-e210-4385-ad4c-678b99db9a8a)
+![Ekran görüntüsü 2024-08-05 160905](https://github.com/user-attachments/assets/3bb0f47c-6b1f-4f43-90ca-3db4ad85611b)
 
 4. **Veritabanı ve Dataset Aktarımı**:
 
@@ -140,17 +136,18 @@ Bu proje, Enterprise sitesinde çeşitli işlemleri otomatikleştirmek amacıyla
      - Veritabanınızı oluşturduktan sonra, verileri eklemek için phpMyAdmin'de "İçe Aktar" sekmesini kullanabilirsiniz.
      - Veri setinizi içeren `.csv` veya `.sql` dosyasını seçin ve "içe aktar" butonuna tıklayarak verileri içe aktarın.(Verisetini kodun içinde bulabilirsiniz name_surname_corrected.csv)
      
-![Ekran görüntüsü 2024-08-05 161015](https://github.com/user-attachments/assets/5092afc6-061c-4321-9025-d5ba0ea40049)
-![Ekran görüntüsü 2024-08-05 161132](https://github.com/user-attachments/assets/f9d2f683-fb10-4d12-b4d7-429a1c5e848b)
-![Ekran görüntüsü 2024-08-05 161225](https://github.com/user-attachments/assets/a999d6cb-0d71-4b56-86da-7f8658505e70)
-![Ekran görüntüsü 2024-08-05 161352](https://github.com/user-attachments/assets/926b8d3e-402d-4c84-b211-3d2ecee36580)
-![Ekran görüntüsü 2024-08-05 161550](https://github.com/user-attachments/assets/0b675872-e2ba-45a2-8b17-12e107f4e1e7)
-![Ekran görüntüsü 2024-08-05 161626](https://github.com/user-attachments/assets/a037f4c4-d4bb-4398-8e71-a20a635ccd68)
-![Ekran görüntüsü 2024-08-05 161732](https://github.com/user-attachments/assets/68b3c689-98b0-4032-a1c2-3d2f65e18b4c)
-![Ekran görüntüsü 2024-08-05 161806](https://github.com/user-attachments/assets/ca8f34fb-8f4c-4942-a95d-9f465a726d31)
-![Ekran görüntüsü 2024-08-05 161840](https://github.com/user-attachments/assets/3777aca4-7381-4a25-83c1-e365d77a96d9)
-![Ekran görüntüsü 2024-08-05 161508](https://github.com/user-attachments/assets/719260f1-74f7-4543-8de2-9f97a911a4de)
-![image](https://github.com/user-attachments/assets/190b784e-9c1f-48a7-a71c-aeb63278ff0f)
+![Ekran görüntüsü 2024-08-05 161015](https://github.com/user-attachments/assets/f0b4ab35-b715-47b3-800f-67c7f67e595f)
+![Ekran görüntüsü 2024-08-05 161132](https://github.com/user-attachments/assets/b2e2fc51-6223-4db2-97b6-5cdc6c5c1d3b)
+![Ekran görüntüsü 2024-08-05 161225](https://github.com/user-attachments/assets/77de9cf3-fe36-4f52-a84e-809d535d6a5b)
+![Ekran görüntüsü 2024-08-05 161352](https://github.com/user-attachments/assets/01f0d242-b4f8-4a27-8c84-beaa547acc39)
+![Ekran görüntüsü 2024-08-05 161550](https://github.com/user-attachments/assets/71fecc3b-de5b-46c0-8066-d07bd4a84c03)
+![Ekran görüntüsü 2024-08-05 161626](https://github.com/user-attachments/assets/d2153ccf-3463-4de5-8dcb-8bd907f8a4b0)
+![Ekran görüntüsü 2024-08-05 161732](https://github.com/user-attachments/assets/1c5098eb-88c9-4f83-a26d-3e54d1419d3d)
+![Ekran görüntüsü 2024-08-05 161806](https://github.com/user-attachments/assets/47e7f813-64f8-4bdf-8396-19cf3d33f773)
+![Ekran görüntüsü 2024-08-05 161840](https://github.com/user-attachments/assets/f46c780d-6884-42b1-b2f1-dba449482bab)
+![Ekran görüntüsü 2024-08-05 161508](https://github.com/user-attachments/assets/1a9ad069-a33c-4edd-9980-009fee011f6c)
+![Ekran görüntüsü 2024-08-06 154152](https://github.com/user-attachments/assets/2ea5fc53-c4e2-48ce-bd52-7ef4a0e0cf00)
+
 
 ## Kullanım
 
@@ -180,20 +177,20 @@ testng.xml dosyası projenizin kök dizininde bulunmalıdır. Bu dosya TestNG ya
 Sol taraftaki Maven proje sekmesini açın (genellikle sağda, M simgesi ile).
 Maven araç çubuğunda Refresh (Yenile) simgesine (genellikle iki ok) tıklayın. Bu, pom.xml dosyasındaki değişiklikleri algılar ve bağımlılıkları yeniden yükler.
 
-![image](https://github.com/user-attachments/assets/f60ea6a9-0b6c-41b7-b23f-15883b9f3cfe)
+![Ekran görüntüsü 2024-08-06 154353](https://github.com/user-attachments/assets/b726bd0a-e8ee-496e-9af5-bb3550a3f20c)
 
 
 ### TestNG Listener'ları:
 EmailableReporter ve diğer listener'lar projede kullanılır.
 Test sonuçları test-output klasöründe bulunur.
 
-![image](https://github.com/user-attachments/assets/3c499ea5-bd01-4ea7-a167-fa3c118c75c7)
+![Ekran görüntüsü 2024-08-06 154501](https://github.com/user-attachments/assets/f4dbc617-7103-44d8-9148-31b88e4918a1)
 
 
 ### IntelliJ IDEA'da Testleri Çalıştırma:
 testng.xml dosyasına sağ tıklayın "run" butonuna basın.
 
-![Ekran Görüntüsü (665)](https://github.com/user-attachments/assets/dcbff152-2907-48b0-ae75-c40819630ddc)
+![Ekran Görüntüsü (665)](https://github.com/user-attachments/assets/dfcf7ebf-a10e-4dc5-bb09-8da6008cbf38)
 
 
 ### Testleri Tekrar Çalıştırma:
@@ -203,7 +200,7 @@ TestNG yapılandırmasını ve listener'ları kontrol edin ve testlerinizi çal�
 ### Çıktıların Görüntülenmesi
 Testler çalıştırıldığında, sonuçlar test-output klasöründe bulunur. Bu klasörde, emailable-report.html ve testng-failed.xml gibi dosyalar bulunur. Bu dosyalar test sonuçlarımızı detaylı bir şekilde gösterir.
  
-![image](https://github.com/user-attachments/assets/708b242d-9135-4288-a9c4-2ebaf4fb902b)
+![Ekran görüntüsü 2024-08-06 154844](https://github.com/user-attachments/assets/f03c28ca-3921-4946-8eea-c7699e872a2f)
 
 
 ## Özellikler
@@ -241,7 +238,7 @@ Paralel testler, testlerinizi aynı anda birden fazla iş parçacığında çal�
 ## Headless Mod
 Headless mod, tarayıcının kullanıcı arayüzü olmadan çalışmasını sağlar, bu da testlerin daha hızlı çalışmasını ve CI/CD süreçlerinde daha verimli olmasını sağlar. Headless modda testler genellikle başsız (headless) tarayıcılar kullanılarak çalıştırılır:
 Kodumuzda aktif etmek için true deaktif etmek için false yazarak headless modlu yada headless modu olmadan çalıştırabiliriz.
-![image](https://github.com/user-attachments/assets/4e8f8077-a7c0-42f2-a784-0d54dd5d1445)
+![image](https://github.com/user-attachments/assets/7580158c-33af-42cb-914b-b2b8a86ce494)
 
 ```java
 public class HeadlessTest {
