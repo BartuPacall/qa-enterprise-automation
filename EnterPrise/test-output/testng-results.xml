@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-06T15:13:57 TRT" name="Car Rental Test Suite" finished-at="2024-08-06T15:16:35 TRT" duration-ms="157810">
+    <groups>
+    </groups>
+    <test started-at="2024-08-06T15:13:57 TRT" name="Car Rental Tests" finished-at="2024-08-06T15:16:35 TRT" duration-ms="157810">
+      <class name="tests.SelectSuitableCarTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SelectSuitableCarTest@1608bcbd]" started-at="2024-08-06T15:13:57 TRT" name="setUp" finished-at="2024-08-06T15:14:12 TRT" duration-ms="14703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectSuitableCar()[pri:1, instance:tests.SelectSuitableCarTest@1608bcbd]" started-at="2024-08-06T15:14:12 TRT" name="selectSuitableCar" finished-at="2024-08-06T15:15:53 TRT" duration-ms="101260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSuitableCar -->
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:tests.SelectSuitableCarTest@1608bcbd]" started-at="2024-08-06T15:15:53 TRT" name="beforeAllTests" finished-at="2024-08-06T15:15:57 TRT" duration-ms="3880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method signature="selectSuitablePromotionErr()[pri:2, instance:tests.SelectSuitableCarTest@1608bcbd]" started-at="2024-08-06T15:15:57 TRT" name="selectSuitablePromotionErr" finished-at="2024-08-06T15:16:31 TRT" duration-ms="33999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSuitablePromotionErr -->
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:tests.SelectSuitableCarTest@1608bcbd]" started-at="2024-08-06T15:16:31 TRT" name="beforeAllTests" finished-at="2024-08-06T15:16:35 TRT" duration-ms="3720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SelectSuitableCarTest@1608bcbd]" started-at="2024-08-06T15:16:35 TRT" name="tearDown" finished-at="2024-08-06T15:16:35 TRT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SelectSuitableCarTest -->
+      <class name="tests.ClickTabElementsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ClickTabElementsTest@b2c5e07]" started-at="2024-08-06T15:13:57 TRT" name="setUp" finished-at="2024-08-06T15:14:13 TRT" duration-ms="15853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setRezervationPage()[pri:1, instance:tests.ClickTabElementsTest@b2c5e07]" started-at="2024-08-06T15:14:13 TRT" name="setRezervationPage" finished-at="2024-08-06T15:14:24 TRT" duration-ms="10893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRezervationPage -->
+        <test-method signature="setCampaignsPage()[pri:2, instance:tests.ClickTabElementsTest@b2c5e07]" started-at="2024-08-06T15:14:24 TRT" name="setCampaignsPage" finished-at="2024-08-06T15:14:27 TRT" duration-ms="3148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCampaignsPage -->
+        <test-method signature="setOfficesPage()[pri:3, instance:tests.ClickTabElementsTest@b2c5e07]" started-at="2024-08-06T15:14:27 TRT" name="setOfficesPage" finished-at="2024-08-06T15:14:30 TRT" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setOfficesPage -->
+        <test-method signature="setFleetPage()[pri:4, instance:tests.ClickTabElementsTest@b2c5e07]" started-at="2024-08-06T15:14:30 TRT" name="setFleetPage" finished-at="2024-08-06T15:14:34 TRT" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFleetPage -->
+        <test-method signature="setInvestorRelationsPage()[pri:5, instance:tests.ClickTabElementsTest@b2c5e07]" started-at="2024-08-06T15:14:34 TRT" name="setInvestorRelationsPage" finished-at="2024-08-06T15:15:03 TRT" duration-ms="29027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInvestorRelationsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ClickTabElementsTest@b2c5e07]" started-at="2024-08-06T15:15:03 TRT" name="tearDown" finished-at="2024-08-06T15:15:03 TRT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ClickTabElementsTest -->
+      <class name="tests.InformationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InformationTest@5812f68b]" started-at="2024-08-06T15:13:57 TRT" name="setUp" finished-at="2024-08-06T15:14:00 TRT" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setInformationPage()[pri:1, instance:tests.InformationTest@5812f68b]" started-at="2024-08-06T15:14:00 TRT" name="setInformationPage" finished-at="2024-08-06T15:15:33 TRT" duration-ms="92464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInformationPage -->
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:tests.InformationTest@5812f68b]" started-at="2024-08-06T15:15:33 TRT" name="beforeAllTests" finished-at="2024-08-06T15:15:36 TRT" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method signature="blankErrInformationPage()[pri:2, instance:tests.InformationTest@5812f68b]" started-at="2024-08-06T15:15:36 TRT" name="blankErrInformationPage" finished-at="2024-08-06T15:16:26 TRT" duration-ms="50028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankErrInformationPage -->
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:tests.InformationTest@5812f68b]" started-at="2024-08-06T15:16:26 TRT" name="beforeAllTests" finished-at="2024-08-06T15:16:30 TRT" duration-ms="3318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InformationTest@5812f68b]" started-at="2024-08-06T15:16:30 TRT" name="tearDown" finished-at="2024-08-06T15:16:30 TRT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.InformationTest -->
+    </test> <!-- Car Rental Tests -->
+  </suite> <!-- Car Rental Test Suite -->
+</testng-results>

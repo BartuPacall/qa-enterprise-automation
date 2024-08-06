@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Car Rental Test Suite" parallel="classes" thread-count="3">
+    <listeners>
+        <listener class-name="listener.TestNGListener"/>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+        <listener class-name="org.testng.reporters.JUnitXMLReporter"/>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Car Rental Tests">
+        <classes>
+            <class name="tests.SelectSuitableCarTest">
+                <methods>
+                    <include name="selectSuitableCar"/>
+                    <include name="selectSuitablePromotionErr"/>
+                </methods>
+            </class>
+            <class name="tests.ClickTabElementsTest">
+                <methods>
+                    <include name="setRezervationPage"/>
+                    <include name="setCampaignsPage"/>
+                    <include name="setOfficesPage"/>
+                    <include name="setFleetPage"/>
+                    <include name="setInvestorRelationsPage"/>
+                </methods>
+            </class>
+            <class name="tests.InformationTest">
+                <methods>
+                    <include name="setInformationPage"/>
+                    <include name="blankErrInformationPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
