@@ -77,7 +77,7 @@ public class SelectSuitableCarTest {
             System.out.println("Alert mesajına ulaşılmadı");
         }
 
-        suitableCarPage.selectDropdownCity("Çanakkale Havalimanı (CKZ)");
+        suitableCarPage.selectDropdownCity("Antalya İç Hatlar (AYT)");
         Thread.sleep(millis);
 
         suitableCarPage.selectPurchaseDate();
