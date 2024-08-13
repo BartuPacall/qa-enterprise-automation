@@ -295,7 +295,7 @@ Chrome'u açın ve arama kısmına jenkins Download yazınız.
 
 5. **GitHub Entegrasyonu:**
 #### Projemizi githuba yüklediğimiz için githubdan almak istiyoruz bunuda github repomuzun linkini yazarak yapıyoruz.<br><br>
--![Ekran görüntüsü 2024-08-13 175742](https://github.com/user-attachments/assets/0fbc950e-88e9-4c54-be16-f85bc2567caf)
+ ![Ekran görüntüsü 2024-08-13 175742](https://github.com/user-attachments/assets/0fbc950e-88e9-4c54-be16-f85bc2567caf)
 
 6. **Git Entegrasyonu:**
 - Kaynak yönetim kısmına geliyoruz ordan git'i seçiyoruz ve ilgili yere github repomuzun linkini yazıyoruz. Projemiz hangi branchteyse o branchin adını yazıyoruz.<br><br>
