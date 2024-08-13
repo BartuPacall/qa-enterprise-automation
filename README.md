@@ -259,7 +259,7 @@ public class HeadlessTest {
 Jenkins, yazılım geliştirme süreçlerini otomatikleştirmek için kullanılan, açık kaynaklı bir sürekli entegrasyon (CI) ve sürekli teslim (CD) aracıdır. Geliştiricilerin kod değişikliklerini sürekli olarak test etmesini, derlemesini, ve dağıtmasını sağlar. Jenkins, çok sayıda eklenti desteğiyle çeşitli araçlarla entegre olabilir ve yazılım projelerinin otomatik olarak inşa edilmesine, test edilmesine ve dağıtılmasına olanak tanır.
 
 ## Kurulum :
-Chrome'u açın ve arama kısmına jenkins Download yazınız.
+Chrome'u açın ve arama kısmına Jenkins Download yazınız.
  ![Ekran görüntüsü 2024-08-13 173422](https://github.com/user-attachments/assets/a094f17e-3c2c-4564-8b72-ad950d42f262)
 
 1. **Jenkins İndirme:**
