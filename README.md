@@ -275,13 +275,47 @@ Chrome'u açın ve arama kısmına jenkins Download yazınız.
 ![Ekran görüntüsü 2024-08-13 141629](https://github.com/user-attachments/assets/12d08d9a-ec32-496e-a257-7fd42d56c2c9)
 
 
-User oluşturduktan sonra artık Jenkins arayüzündesiniz.
+User oluşturduktan sonra artık Jenkins arayüzündesiniz. Proje oluşturmadan önce şu eklentileri lütfen kurunuz(git, github, maven, testngresults) bunlar şuanki projemiz için yeterli olacaktır ekstradan eklemek istediklerinizi eklentiler kısmından aratarak bulabilirsiniz. Jenkinsi yönet -> Araçlar  kısmında kullanıcağınız maven ve git eklentilerini eklemeyi unutmayınız.
 ![Ekran görüntüsü 2024-08-13 141653](https://github.com/user-attachments/assets/3d96fb36-a83f-48ec-84a1-7b815cfee4d8)
 ![Ekran görüntüsü 2024-08-13 141724](https://github.com/user-attachments/assets/c02c92d3-cb7d-4e9d-925e-c42f917e602a)
 ![Ekran görüntüsü 2024-08-13 141740](https://github.com/user-attachments/assets/d96d9b19-40ac-46c8-a2ca-d2cd3effcee1)
-![arayüz](https://github.com/user-attachments/assets/7590385f-b456-406b-8a0a-32781c018140)
+![image](https://github.com/user-attachments/assets/a1d40cc7-3ca8-458f-80a9-f3a81453f4e2)
+
+Proje oluşturmak için yeni ögeye tıklayınız ve istediğiniz proje stilinizi seçiniz burda basit ve karmaşık olmayan projeler için freestyle project öerilir daha karmaşık projeler için pipeline ve maven tarzı projeleri seçebilirsiniz. Şimdilik biz free style project'i seçiyoruz.
+
+![Ekran görüntüsü 2024-08-13 151418](https://github.com/user-attachments/assets/94a4aaac-7c79-47de-9fbd-e5ef82e5eb2a)
+
+Açıklama kısmına projenizi özetleyen kısa bir açıklama yazabilirsiniz. Bu projeyi parametrik hale getire basarak parametlerinizi ekleyebilirsiniz bu kısımda projeme headless test classes ve parallel suite için bazı parametreler seçtim.
+![Ekran görüntüsü 2024-08-13 151730](https://github.com/user-attachments/assets/fdfa2a24-724a-483a-94d3-2858dd8b0b5a)
+#### Örnek olarak headless mode:
+![Ekran görüntüsü 2024-08-13 152057](https://github.com/user-attachments/assets/eb543745-5553-47f7-8453-ddbddb27b8ea)
+
+Projemizi githuba yüklediğimiz için githubdan almak istiyoruz bunuda github repomuzun linkini yazarak yapıyoruz.
+![Ekran görüntüsü 2024-08-13 175742](https://github.com/user-attachments/assets/0fbc950e-88e9-4c54-be16-f85bc2567caf)
 
 
+Kaynak yönetim kısmına geliyoruz ordan git'i seçiyoruz ve ilgili yere github repomuzun linkini yazıyoruz. Projemiz hangi branchteyse o branchin adını yazıyoruz.
+![Ekran görüntüsü 2024-08-13 152339](https://github.com/user-attachments/assets/3371b2a9-8523-4f41-9991-077be03035d1)
+![Ekran görüntüsü 2024-08-13 152157](https://github.com/user-attachments/assets/fab7385b-29e1-4f59-87ef-0bf39944bb64)
+![Ekran görüntüsü 2024-08-13 152303](https://github.com/user-attachments/assets/7be20eb3-89b3-4b15-a621-e52f0a03a299)
+
+Yapılandırma adımlarına gelip En üst seviye maven hedeflerini çalıştıra basıyoruz ve mavenı seçiyoruz kutumuzada gerekli işlemleri yapması için kodumuzu yazıyoruz.
+![Ekran görüntüsü 2024-08-13 153003](https://github.com/user-attachments/assets/f5e0ff90-43b8-4fef-b936-7241f19dff8f)
+![Ekran görüntüsü 2024-08-13 180028](https://github.com/user-attachments/assets/f0257538-cd31-4aea-93f5-8c3c1e527800)
+
+Sonuçlarımızı görüntülemek için bir yol seçmemiz gerekiyor biz testng üstünden öğrenmek istediğimiz için bu seçeneği seçiyoruz kutu kısmına yolu default olarak bırakıyoruz ve onaylıyoruz. (Not: Eğer bu seçenek yoksa plugins kısmına gidip o kısımdan testng results pluginini indiriniz!)
+![Ekran görüntüsü 2024-08-13 161636](https://github.com/user-attachments/assets/67bbd126-3516-4dc4-a66d-989d5236d3eb)
+![Ekran görüntüsü 2024-08-13 161701](https://github.com/user-attachments/assets/f6865ebb-6386-48b7-adc7-6a13b8e33571)
+
+Bu kısımda parametrelere tıklıyoruz, istediğimiz parametreleri seçiyoruz ve kodumuzu prametreler ile çalıştırıyoruz.
+![Ekran görüntüsü 2024-08-13 161751](https://github.com/user-attachments/assets/cf7d7ed3-1cd3-4940-b8be-229cdc94db5b)
+![Ekran görüntüsü 2024-08-13 161811](https://github.com/user-attachments/assets/fac46a44-5f2b-405f-be62-0a6d30134837)
+![Ekran görüntüsü 2024-08-13 162956](https://github.com/user-attachments/assets/248f1c8b-caaa-4e58-b635-2a06d22dbc6b)
+
+En son kısımda kodumuzun test sonuçlarını görüyoruz bu kısımda detaylandırmak için iç kısmında bize daha detaylı hangi test ne kadar sürede tamamlandı kaçı doğru kaçı yanlış olduğunu daha detaylı olarak görebiliyoruz.
+![Ekran görüntüsü 2024-08-13 162956](https://github.com/user-attachments/assets/5c4b44a8-f85a-4ea7-9f3f-61dcc2a84e84)
+![Ekran görüntüsü 2024-08-13 163003](https://github.com/user-attachments/assets/c7ac4f26-8e23-436f-8631-d5841d8ea7ac)
+![Ekran görüntüsü 2024-08-13 163026](https://github.com/user-attachments/assets/65efc97b-7da8-4593-86ea-1d405baebf3f)
 
 
 
