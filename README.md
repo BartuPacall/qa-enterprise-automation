@@ -315,15 +315,15 @@ Chrome'u açın ve arama kısmına jenkins Download yazınız.
 
 8. **Parametre Seçimi:**
 - Bu kısımda parametrelere tıklıyoruz, istediğimiz parametreleri seçiyoruz ve kodumuzu prametreler ile çalıştırıyoruz.<br><br>
--![Ekran görüntüsü 2024-08-13 161751](https://github.com/user-attachments/assets/cf7d7ed3-1cd3-4940-b8be-229cdc94db5b)
--![Ekran görüntüsü 2024-08-13 161811](https://github.com/user-attachments/assets/fac46a44-5f2b-405f-be62-0a6d30134837)
--![Ekran görüntüsü 2024-08-13 162956](https://github.com/user-attachments/assets/248f1c8b-caaa-4e58-b635-2a06d22dbc6b)
+- ![Ekran görüntüsü 2024-08-13 161751](https://github.com/user-attachments/assets/cf7d7ed3-1cd3-4940-b8be-229cdc94db5b)
+- ![Ekran görüntüsü 2024-08-13 161811](https://github.com/user-attachments/assets/fac46a44-5f2b-405f-be62-0a6d30134837)
+- ![Ekran görüntüsü 2024-08-13 162956](https://github.com/user-attachments/assets/248f1c8b-caaa-4e58-b635-2a06d22dbc6b)
 
 9. **Test Sonuçlarını Görüntüleme:**
 - En son kısımda kodumuzun test sonuçlarını görüyoruz bu kısımda detaylandırmak için iç kısmında bize daha detaylı hangi test ne kadar sürede tamamlandı kaçı doğru kaçı yanlış olduğunu daha detaylı olarak görebiliyoruz.<br><br>
--![Ekran görüntüsü 2024-08-13 162956](https://github.com/user-attachments/assets/5c4b44a8-f85a-4ea7-9f3f-61dcc2a84e84)
--![Ekran görüntüsü 2024-08-13 163003](https://github.com/user-attachments/assets/c7ac4f26-8e23-436f-8631-d5841d8ea7ac)
--![Ekran görüntüsü 2024-08-13 163026](https://github.com/user-attachments/assets/65efc97b-7da8-4593-86ea-1d405baebf3f)
+- ![Ekran görüntüsü 2024-08-13 162956](https://github.com/user-attachments/assets/5c4b44a8-f85a-4ea7-9f3f-61dcc2a84e84)
+- ![Ekran görüntüsü 2024-08-13 163003](https://github.com/user-attachments/assets/c7ac4f26-8e23-436f-8631-d5841d8ea7ac)
+- ![Ekran görüntüsü 2024-08-13 163026](https://github.com/user-attachments/assets/65efc97b-7da8-4593-86ea-1d405baebf3f)
 
 
 ## Katkıda Bulunma
