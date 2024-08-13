@@ -314,7 +314,7 @@ Chrome'u açın ve arama kısmına jenkins Download yazınız.
  ![Ekran görüntüsü 2024-08-13 161701](https://github.com/user-attachments/assets/f6865ebb-6386-48b7-adc7-6a13b8e33571)
 
 9. **Parametre Seçimi:**
-- Bu kısımda parametrelere tıklıyoruz, istediğimiz parametreleri seçiyoruz ve kodumuzu prametreler ile çalıştırıyoruz.<br><br>
+- Bu kısımda parametrelere tıklıyoruz, istediğimiz parametreleri seçiyoruz ve kodumuzu parametreler ile çalıştırıyoruz.<br><br>
   ![Ekran görüntüsü 2024-08-13 161751](https://github.com/user-attachments/assets/cf7d7ed3-1cd3-4940-b8be-229cdc94db5b)
   ![Ekran görüntüsü 2024-08-13 161811](https://github.com/user-attachments/assets/fac46a44-5f2b-405f-be62-0a6d30134837)
   ![Ekran görüntüsü 2024-08-13 162956](https://github.com/user-attachments/assets/248f1c8b-caaa-4e58-b635-2a06d22dbc6b)
