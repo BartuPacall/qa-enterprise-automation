@@ -262,20 +262,24 @@ Jenkins, yazılım geliştirme süreçlerini otomatikleştirmek için kullanıla
 Chrome'u açın ve arama kısmına jenkins Download yazınız.
 ![Ekran görüntüsü 2024-08-13 173422](https://github.com/user-attachments/assets/a094f17e-3c2c-4564-8b72-ad950d42f262)
 
-#### İlgili siteye geldikten sonra hemen aşağıda işletim sistemlerinden size uygun olanı indiriniz ve kurunuz.
+- İlgili siteye geldikten sonra hemen aşağıda işletim sistemlerinden size uygun olanı indiriniz ve kurunuz.
 ![Ekran görüntüsü 2024-08-13 173443](https://github.com/user-attachments/assets/79af58b9-36e3-4857-925d-b48371909504)
 ![image](https://github.com/user-attachments/assets/8c2b75ce-1b42-40a9-a78e-3f7a37c3e36a)
 
-#### Daha sonra tarayıcınızdan http://localhost:8080/ ‘e gidiniz.
-Daha sonrasında karşınıza gelen ekrandaki kırmızı yazıyla belirtilen dosyayı txt ile açın ve içindeki şifreyi kopyalayıp “Administrator password” kısmına yapıştırın.
+- Daha sonra tarayıcınızdan http://localhost:8080/ ‘e gidiniz. Daha sonrasında karşınıza gelen ekrandaki kırmızı yazıyla belirtilen dosyayı txt ile açın ve içindeki şifreyi kopyalayıp “Administrator password” kısmına yapıştırın.
 ![Ekran görüntüsü 2024-08-13 141545](https://github.com/user-attachments/assets/2e2093bc-7aea-42a9-a015-4c7e3ab5759c)
 ![Ekran görüntüsü 2024-08-13 141126](https://github.com/user-attachments/assets/5cdf8190-13ca-4572-95e7-4745cb58a05a)
 
-#### Eğer sadece default pluginleri indirmek isterseniz “Install suggested plugins” butonuna basın ve devam edin. Fakat başka pluginler’de indirmek istiyorsanız “Select plugins to install” butonuna basın ve devam edin. İndirme işlemleri sona erince sizden bir user yaratmanız istenecek.
+- Eğer sadece default pluginleri indirmek isterseniz “Install suggested plugins” butonuna basın ve devam edin. Fakat başka pluginler’de indirmek istiyorsanız “Select plugins to install” butonuna basın ve devam edin. İndirme işlemleri sona erince sizden bir user yaratmanız istenecek.
 ![Ekran görüntüsü 2024-08-13 141608](https://github.com/user-attachments/assets/355fb15d-d16f-4513-9752-40da51efa2e9)
+![Ekran görüntüsü 2024-08-13 141629](https://github.com/user-attachments/assets/12d08d9a-ec32-496e-a257-7fd42d56c2c9)
 
 
-
+User oluşturduktan sonra artık Jenkins arayüzündesiniz.
+![Ekran görüntüsü 2024-08-13 141653](https://github.com/user-attachments/assets/3d96fb36-a83f-48ec-84a1-7b815cfee4d8)
+![Ekran görüntüsü 2024-08-13 141724](https://github.com/user-attachments/assets/c02c92d3-cb7d-4e9d-925e-c42f917e602a)
+![Ekran görüntüsü 2024-08-13 141740](https://github.com/user-attachments/assets/d96d9b19-40ac-46c8-a2ca-d2cd3effcee1)
+![arayüz](https://github.com/user-attachments/assets/7590385f-b456-406b-8a0a-32781c018140)
 
 
 
