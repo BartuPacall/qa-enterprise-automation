@@ -13,7 +13,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.*;
-import utils.Config;
 import utils.DataBaseUtils;
 
 import java.time.Duration;
@@ -41,13 +40,20 @@ public class InformationTest {
             surname = nameAndSurname[1];
         }
 
-        Config config = new Config();
+        
+        
+        String headlessMode = System.getProperty("headlessMode");
+        System.out.println(System.getProperty("parallelSuite"));
+        System.out.println(System.getProperty("testClasses"));
+        System.out.println("Headless mode key value: " + headlessMode);
         ChromeOptions options = new ChromeOptions();
-
-        if (config.isHeadless()) {
+        
+        if ("headless".equals(headlessMode)) {
             options.addArguments("--headless");
-            options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
+            System.out.println("Headless mode open");
+        } else {
+            System.out.println("Windowed mode open");
         }
 
         cdriver = new ChromeDriver(options);
@@ -142,6 +148,7 @@ public class InformationTest {
 
     @Test(priority = 2)
     public void blankErrInformationPage() throws InterruptedException {
+        Thread.sleep(millis);
         homePage.clickInformation();
         Thread.sleep(millis);
 

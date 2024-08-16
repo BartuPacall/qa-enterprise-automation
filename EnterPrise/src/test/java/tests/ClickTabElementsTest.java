@@ -11,8 +11,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.*;
-import utils.Config;
-
 import java.time.Duration;
 
 public class ClickTabElementsTest {
@@ -32,13 +30,19 @@ public class ClickTabElementsTest {
 
     @BeforeClass
     public static void setUp()  {
-        Config config = new Config();
-        ChromeOptions options = new ChromeOptions();
 
-        if (config.isHeadless()) {
+        String headlessMode = System.getProperty("headlessMode");
+        System.out.println(System.getProperty("parallelSuite"));
+        System.out.println(System.getProperty("testClasses"));
+        System.out.println("Headless mode key value: " + headlessMode);
+        ChromeOptions options = new ChromeOptions();
+        
+        if ("headless".equals(headlessMode)) {
             options.addArguments("--headless");
-            options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
+            System.out.println("Headless mode open");
+        } else {
+            System.out.println("Windowed mode open");
         }
 
         cdriver = new ChromeDriver(options);

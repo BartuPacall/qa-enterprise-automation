@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Car Rental Test Suite" parallel="classes" thread-count="3">
+<suite name="Car Rental Test Suite" parallel="${parallelSuite}" thread-count="3">
     <listeners>
+        <listener class-name="DynamicTest.DynamicTestNGConfig"/>
         <listener class-name="listener.TestNGListener"/>
         <listener class-name="org.testng.reporters.EmailableReporter2"/>
         <listener class-name="org.testng.reporters.XMLReporter"/>
@@ -9,28 +10,10 @@
         <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
     </listeners>
     <test verbose="2" preserve-order="true" name="Car Rental Tests">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.enterprise.com.tr/"/>
         <classes>
-            <class name="tests.SelectSuitableCarTest">
-                <methods>
-                    <include name="selectSuitableCar"/>
-                    <include name="selectSuitablePromotionErr"/>
-                </methods>
-            </class>
-            <class name="tests.ClickTabElementsTest">
-                <methods>
-                    <include name="setRezervationPage"/>
-                    <include name="setCampaignsPage"/>
-                    <include name="setOfficesPage"/>
-                    <include name="setFleetPage"/>
-                    <include name="setInvestorRelationsPage"/>
-                </methods>
-            </class>
-            <class name="tests.InformationTest">
-                <methods>
-                    <include name="setInformationPage"/>
-                    <include name="blankErrInformationPage"/>
-                </methods>
-            </class>
+            ${testClasses}
         </classes>
     </test>
 </suite>

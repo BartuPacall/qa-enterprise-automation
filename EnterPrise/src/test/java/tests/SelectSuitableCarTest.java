@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.*;
-import utils.Config;
+
 
 import java.time.Duration;
 
@@ -30,15 +30,23 @@ public class SelectSuitableCarTest {
 
     @BeforeClass
     public static void setUp() {
-        Config config = new Config();
-        ChromeOptions options = new ChromeOptions();
 
-        if (config.isHeadless()) {
+        String headlessMode = System.getProperty("headlessMode");
+        System.out.println(System.getProperty("parallelSuite"));
+        System.out.println(System.getProperty("testClasses"));
+        System.out.println("Headless mode key value: " + headlessMode);
+        ChromeOptions options = new ChromeOptions();
+        
+        if ("headless".equals(headlessMode)) {
             options.addArguments("--headless");
-            options.addArguments("--disable-gpu");
+            options.addArguments("--window-size=1920,1080");
+            System.out.println("Headless mode open");
+        } else {
+            System.out.println("Windowed mode open");
         }
 
         cdriver = new ChromeDriver(options);
+        
         softAssert = new SoftAssert();
         jsx = (JavascriptExecutor) cdriver;
         wait = new WebDriverWait(cdriver, Duration.ofSeconds(15));
@@ -77,7 +85,7 @@ public class SelectSuitableCarTest {
             System.out.println("Alert mesajına ulaşılmadı");
         }
 
-        suitableCarPage.selectDropdownCity("Antalya İç Hatlar (AYT)");
+        suitableCarPage.selectDropdownCity("Bursa Merkez");
         Thread.sleep(millis);
 
         suitableCarPage.selectPurchaseDate();
@@ -95,7 +103,7 @@ public class SelectSuitableCarTest {
         suitableCarPage.selectAge(25);
         Thread.sleep(millis);
 
-        suitableCarPage.leaveDifPlaces("Antalya Konyaaltı");
+        suitableCarPage.leaveDifPlaces("Ankara Merkez");
         Thread.sleep(millis);
 
         suitableCarPage.usePromotion("Garanti BBVA Çalışanları");
